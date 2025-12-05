@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Import the OpenSpeedTest library -->
+    <script src="
+  "></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Internet Speed Test</h1>
+        <div id="speedtest-widget">
+            <!-- The speed test UI will be rendered here by the script -->
+        </div>
+        <button onclick="startTest()">Start Test</button>
+        <p id="status">Click 'Start Test' to begin.</p>
+        <div class="results">
+            <p>Download Speed: <span id="download-speed">0.00</span> Mbps</p>
+            <p>Upload Speed: <span id="upload-speed">0.00</span> Mbps</p>
+            <p>Ping: <span id="ping">0</span> ms</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

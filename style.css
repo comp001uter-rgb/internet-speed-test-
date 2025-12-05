@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    color: #333;
+}
+
+#speedtest-widget {
+    margin: 20px 0;
+    /* The library will populate this div */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.results p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+span {
+    font-weight: bold;
+    color: #28a745;
+}
+
+#status {
+    color: #555;
+    font-style: italic;
+}
